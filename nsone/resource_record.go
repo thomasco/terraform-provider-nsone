@@ -53,7 +53,6 @@ func recordResource() *schema.Resource {
 			"link": &schema.Schema{
 				Type:     schema.TypeString,
 				Optional: true,
-				ForceNew: true,
 			},
 			"answers": &schema.Schema{
 				Type:     schema.TypeSet,
